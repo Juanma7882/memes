@@ -17,3 +17,25 @@ minititle:
 
 - sadsa
 - asdsada
+"""
+oid setup()
+{
+  //LED
+  pinMode(a, OUTPUT);
+  pinMode(b, OUTPUT);
+  pinMode(c, OUTPUT);
+  pinMode(d, OUTPUT);
+  pinMode(e, OUTPUT);
+  pinMode(f, OUTPUT);
+  pinMode(g, OUTPUT);
+  
+  //Pulsadores
+  pinMode(pulsadorAumento, INPUT_PULLUP);
+  pinMode(pulsadorDecremento, INPUT_PULLUP);
+  pinMode(pulsadorReinicio, INPUT_PULLUP);
+  
+  pinMode(unidad, OUTPUT);
+  pinMode(decena, OUTPUT);
+  Serial.begin(9600);
+}
+"""
