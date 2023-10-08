@@ -13,3 +13,5 @@ void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
   digitalWrite(B1,estado1);
   digitalWrite(B0,estado0);
 }
+- sadsa
+- asdsada
