@@ -6,3 +6,10 @@ preuba para subir archivod
 
 dfsfdsfdsfdgfhfghhedgregertrtrhth
 # titltr
+void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
+{
+  digitalWrite(B3,estado3);
+  digitalWrite(B2,estado2);
+  digitalWrite(B1,estado1);
+  digitalWrite(B0,estado0);
+}
